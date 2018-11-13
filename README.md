@@ -1,2 +1,2 @@
 # Dice-Roll
-&lt;b>Synopsis:&lt;/b> A simple die roller
+<b>Synopsis:</b> A simple die roller
