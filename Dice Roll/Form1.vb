@@ -18,6 +18,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         'Start the timer
         Timer1.Start()
+        ListBox1.Items.Clear()
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -45,9 +46,10 @@
     End Sub
 
     Private Sub RollDie()
+
         'Get random numbers between 1 and 6.
         Dim dieSide As Integer = r.Next(1, 7)
-
+        ListBox1.Items.Add(dieSide)
         'Convert Random Integer to string
         intToString = dieSide.ToString
 
