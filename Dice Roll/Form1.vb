@@ -55,6 +55,9 @@
 
         'Use that converted string to call specific image by name from My.Resources (they are named 1 - 6) and then set the picturebox to that image
         PictureBox1.BackgroundImage = My.Resources.ResourceManager.GetObject(intToString)
+
+        'Play Sound
+        My.Computer.Audio.Play(My.Resources.tik, AudioPlayMode.Background)
     End Sub
 
 End Class

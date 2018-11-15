@@ -137,5 +137,8 @@
   <ItemGroup>
     <None Include="Resources\Alea_6.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tik.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
